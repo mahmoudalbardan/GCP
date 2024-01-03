@@ -370,4 +370,9 @@ In practice, many organizations use Spark and Hadoop together. Spark can leverag
 ![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/2f921eb7-1f20-442c-b31e-96465e44e1fd)
 
 ## What is PaaS (Plateform as a Service) ? 
+Elastic Beanstalk (AWS), Heroku, Google app engine
 ![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/a7e3a939-e056-4296-b261-2cd17658361a)
+
+## What is SaaS (Softwar as a service) ? 
+software like zoom, dropbox, slack ..
+![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/428cae4c-2779-437c-9263-ab134d02d830)
