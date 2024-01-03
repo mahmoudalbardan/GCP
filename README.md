@@ -381,3 +381,5 @@ software like zoom, dropbox, slack ..
 AWS, GCP, Azure
 ![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/7ac562c7-79fb-4688-a7ad-a5dc40e4aff6)
 
+## What is serverless ? 
+Serverless computing, often referred to as "serverless," is a cloud computing model where the cloud provider manages the infrastructure, automatically provisioning and scaling resources as needed, allowing developers to focus on writing code without worrying about the underlying servers. In a serverless architecture, the cloud provider dynamically allocates resources to execute code in response to events or requests, and users are billed based on the actual computational resources consumed rather than pre-allocated capacity.
