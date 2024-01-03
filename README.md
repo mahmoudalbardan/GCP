@@ -376,3 +376,8 @@ Elastic Beanstalk (AWS), Heroku, Google app engine
 ## What is SaaS (Softwar as a service) ? 
 software like zoom, dropbox, slack ..
 ![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/428cae4c-2779-437c-9263-ab134d02d830)
+
+## What is Iaas (Infrastructure as a service) ? 
+AWS, GCP, Azure
+![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/7ac562c7-79fb-4688-a7ad-a5dc40e4aff6)
+
