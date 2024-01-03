@@ -383,3 +383,9 @@ AWS, GCP, Azure
 
 ## What is serverless ? 
 Serverless computing, often referred to as "serverless," is a cloud computing model where the cloud provider manages the infrastructure, automatically provisioning and scaling resources as needed, allowing developers to focus on writing code without worrying about the underlying servers. In a serverless architecture, the cloud provider dynamically allocates resources to execute code in response to events or requests, and users are billed based on the actual computational resources consumed rather than pre-allocated capacity.
+
+
+## What is VPC (Virtual Private Cloud) ? 
+![image](https://github.com/mahmoudalbardan/GCP/assets/22146091/64644016-44d5-40c7-ae0b-8b91cea656ab)
+
+
