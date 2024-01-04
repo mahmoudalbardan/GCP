@@ -612,3 +612,35 @@ Cloud providers like Google Cloud Platform (GCP) offer a variety of instance typ
 | e2-micro               | Burstable                  | Micro                   | Burstable performance, suitable for small workloads| Development, testing, small workloads            |
 | r2-highmem-16          | Memory and Storage Optimized| Memory Optimized, 16  | Memory and storage-optimized, 16 vCPUs, local SSD storage | Big Data analytics, data processing            |
 | custom-24-32768        | High-Performance Computing (HPC)| Custom, 24, 32768   | Customizable configuration, 24 vCPUs, 32768 MB memory | Scientific research, simulations, parallel processing |
+
+# Databases in GCP
+
+| Database Type      | Description                                      | Examples                                     | Specifications                                                                         |
+|--------------------|--------------------------------------------------|----------------------------------------------|-----------------------------------------------------------------------------------------|
+| Relational         | Structured databases with tables and SQL support | Cloud SQL (MySQL, PostgreSQL), Cloud Spanner | ACID-compliant, supports SQL queries, suitable for structured data, strong consistency |
+| Key-Value          | NoSQL databases storing data as key-value pairs  | Cloud Bigtable, Firestore                    | Schema-less, horizontally scalable, well-suited for high-throughput read and write     |
+| In-Memory          | Data stored in-memory for fast access            | Cloud Memorystore                            | High-performance, low-latency, suitable for caching and rapid data access              |
+| Document           | NoSQL databases storing data as flexible JSON documents | Firestore, MongoDB, Cloud Firestore (Beta) | Schema-less, supports semi-structured data, horizontally scalable, flexible data model  |
+
+| Relational Database | Examples                       | Specifications                                        |
+|---------------------|--------------------------------|--------------------------------------------------------|
+| Cloud SQL           | MySQL, PostgreSQL              | ACID-compliant, SQL support, suitable for structured data |
+| Cloud Spanner       | Globally distributed databases | Horizontally scalable, globally consistent, ACID-compliant |
+
+| Key-Value Database | Examples      | Specifications                                            |
+|--------------------|---------------|------------------------------------------------------------|
+| Cloud Bigtable     | Wide-column store NoSQL database | Horizontally scalable, suitable for large-scale analytics  |
+| Firestore          | NoSQL document database        | Schema-less, real-time updates, scalable and flexible       |
+
+
+| In-Memory Database | Example        | Specifications                        |
+|--------------------|----------------|----------------------------------------|
+| Cloud Memorystore  | Redis compatible in-memory service | High-performance, fully managed, low-latency |
+
+| Document Database  | Examples                       | Specifications                                     |
+|--------------------|--------------------------------|-----------------------------------------------------|
+| Firestore          | Realtime NoSQL database         | Schema-less, supports semi-structured data           |
+| MongoDB            | NoSQL document-oriented database | Flexible schema, JSON-like documents, scalable       |
+| Cloud Firestore    | (Beta) Serverless NoSQL database | Real-time updates, automatic scaling, fully managed  |
+
+
