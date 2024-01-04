@@ -590,6 +590,15 @@ When considering cloud infrastructure and services, different workloads have var
 
 Cloud providers like Google Cloud Platform (GCP) offer a variety of instance types and services tailored to different workload characteristics. By understanding the nature of your workload, you can make informed decisions when selecting the appropriate cloud resources to meet your performance, scalability, and cost requirements.
 
+## Storage classes in GCP
+
+| Storage Class | Description | Use Cases | Access Times & Retrieval Costs | Storage Costs | Durability & Availability |
+|---------------|-------------|-----------|-------------------------------|---------------|---------------------------|
+| Standard      | Default class for frequently accessed data | Frequently accessed data, low-latency requirements | Fast access times, lower retrieval costs | Higher storage costs | High durability and availability |
+| Nearline      | Designed for infrequently accessed data | Backup, long-term storage | Slower access times (in minutes), moderate retrieval costs | Lower storage costs compared to Standard | High durability, slightly lower availability |
+| Coldline      | Intended for very infrequently accessed data | Archiving, rarely accessed data | Slower access times, higher retrieval costs | Lower storage costs compared to Nearline | High durability, lower availability compared to Nearline |
+| Archive       | Cost-effective storage for extremely rare access | Long-term data retention, compliance | Longest access times, highest retrieval costs | Lowest storage costs | High durability, lower availability compared to Coldline |
+
 
 ## Instances in GCP
 
